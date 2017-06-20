@@ -1,37 +1,55 @@
-## Welcome to GitHub Pages
+# Service Patterns
 
-You can use the [editor on GitHub](https://github.com/bcgov/service-patterns-temp/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+An experiment in displaying service patterns a linking assets, content, etc.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## The CAPTCHA Pattern
 
-### Markdown
+### Example of a CAPTCHA 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+  
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+### What is it? 
+A CAPTCHA (a backronym  for "Completely Automated Public Turing test to tell Computers and Humans Apart") is a type of challenge-response test to determine whether or not a user is human. CAPTCHA’s are used to protect digital services from spam robots.  
 
-- Bulleted
-- List
+The most common CAPTCHA requires that the user type the letters of a distorted image, sometimes with the addition of an obscured sequence of letters or digits that appears on the screen. To make a CAPTCHA accessible an audio layer should be included. 
 
-1. Numbered
-2. List
+```
+Check: is this pattern for you? 
+Put in CAPTCHA when your service requires anonymous users, i.e., not logged in, to submit (personal or non-personal) information. Especially highly valued and frequently used services are at a higher risk of spam attacks.  
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+Warning: Due to advances in computer vision technologies, common CAPTCHA solutions can be broken if the attacker is determined enough.  Complimentary security controls should be used in conjunction with CAPTCHA if the digital service is a very high value target.
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Why use this design pattern? 
+1.	This pattern has passed STRA (Security Threat and Risk Assessment). Most government services require to fill in personal information. Most CAPTCHA services delivered by third parties contain Terms of Use that do not fit with the security guidelines in place (ie. Google’s ReCAPTCHA). 
+1.	This pattern meets the Government standards for accessibility. 
+1.	This pattern has been proven in high risk production deployments. 
 
-### Jekyll Themes
+### How does a ‘good’ CAPTCHA behave? 
+A good CAPTCHA is nuanced in its design.  Its a fine balance of  not being too easy so robots can break them easily but not too hard so people find it difficult.  Consideration for a good CAPTCHA: 
+-	Is not too long 
+-	Should contain a clear image (if an image is used)
+-	Has a task that is not too onerous 
+-	Does not use upper and lower casing, just upper or lower casing 
+-	Contains no common letters that appear the same (ie. I and l, o and 0) 
+-	Is made accessible with an audio layer
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/bcgov/service-patterns-temp/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### Where to use this design pattern? 
+From a flow perspective, the best place to put a CAPTCHA is right before the user submits their (personal or non-personal) information at the end of a workflow/transaction.  
 
-### Support or Contact
+### I want to use this pattern 
+This reference documentation shows you the design pattern for CAPTCHA:
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+-	Service part https://github.com/bcgov/MyGovBC-CAPTCHA-Service
+-	User interface part https://github.com/bcgov/MyGovBC-CAPTCHA-Widget 
+-	Demo (link coming) 
+
+### Discuss this pattern 
+Raise an issue in GitHub to discuss!
+
+ 
+
+
+
+
