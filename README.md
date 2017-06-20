@@ -5,7 +5,7 @@ An experiment in displaying service patterns a linking assets, content, etc.
 ## The CAPTCHA Pattern
 
 ### Example of a CAPTCHA 
-
+![Example of CAPTCHA](/images/captchasample.png)
 
 ### What is it? 
 A CAPTCHA (a backronym  for "Completely Automated Public Turing test to tell Computers and Humans Apart") is a type of challenge-response test to determine whether or not a user is human. CAPTCHA’s are used to protect digital services from spam robots.  
