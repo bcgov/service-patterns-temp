@@ -6,8 +6,6 @@ An experiment in displaying service patterns a linking assets, content, etc.
 
 ### Example of a CAPTCHA 
 
-  
-
 
 ### What is it? 
 A CAPTCHA (a backronym  for "Completely Automated Public Turing test to tell Computers and Humans Apart") is a type of challenge-response test to determine whether or not a user is human. CAPTCHA’s are used to protect digital services from spam robots.  
@@ -39,12 +37,12 @@ From a flow perspective, the best place to put a CAPTCHA is right before the use
 ### I want to use this pattern 
 This reference documentation shows you the design pattern for CAPTCHA:
 
--	Service part https://github.com/bcgov/MyGovBC-CAPTCHA-Service
--	User interface part https://github.com/bcgov/MyGovBC-CAPTCHA-Widget 
+-	Service Component: [MyGovBC-CAPTCHA-Service](https://github.com/bcgov/MyGovBC-CAPTCHA-Service) 
+-	User Interface Component [MyGovBC-CAPTCHA-Widget](https://github.com/bcgov/MyGovBC-CAPTCHA-Widget)
 -	Demo (link coming) 
 
 ### Discuss this pattern 
-Raise an issue in GitHub to discuss!
+[Raise an issue in GitHub to discuss](https://github.com/bcgov/service-patterns-temp/issues)
 
  
 
