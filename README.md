@@ -14,12 +14,10 @@ A CAPTCHA (a backronym  for "Completely Automated Public Turing test to tell Com
 
 The most common CAPTCHA requires that the user type the letters of a distorted image, sometimes with the addition of an obscured sequence of letters or digits that appears on the screen. To make a CAPTCHA accessible an audio layer should be included. 
 
-```
-Check: is this pattern for you? 
-Put in CAPTCHA when your service requires anonymous users, i.e., not logged in, to submit (personal or non-personal) information. Especially highly valued and frequently used services are at a higher risk of spam attacks.  
+> Check: is this pattern for you? 
+> Put in CAPTCHA when your service requires anonymous users, i.e., not logged in, to submit (personal or non-personal) information.  Especially highly valued and frequently used services are at a higher risk of spam attacks.  
 
-Warning: Due to advances in computer vision technologies, common CAPTCHA solutions can be broken if the attacker is determined enough.  Complimentary security controls should be used in conjunction with CAPTCHA if the digital service is a very high value target.
-```
+> Warning: Due to advances in computer vision technologies, common CAPTCHA solutions can be broken if the attacker is determined enough.  Complimentary security controls should be used in conjunction with CAPTCHA if the digital service is a very high value target.
 
 ### Why use this design pattern? 
 1.	This pattern has passed STRA (Security Threat and Risk Assessment). Most government services require to fill in personal information. Most CAPTCHA services delivered by third parties contain Terms of Use that do not fit with the security guidelines in place (ie. Google’s ReCAPTCHA). 
