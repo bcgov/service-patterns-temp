@@ -39,7 +39,7 @@ This reference documentation shows you the design pattern for CAPTCHA:
 
 -	Service Component: [MyGovBC-CAPTCHA-Service](https://github.com/bcgov/MyGovBC-CAPTCHA-Service) 
 -	User Interface Component [MyGovBC-CAPTCHA-Widget](https://github.com/bcgov/MyGovBC-CAPTCHA-Widget)
--	Demo (link coming) 
+-	Demo (link here) 
 
 ### Discuss this pattern 
 [Raise an issue in GitHub to discuss](https://github.com/bcgov/service-patterns-temp/issues)
